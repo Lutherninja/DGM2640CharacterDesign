@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: HandPractice.ma
-//Last modified: Thu, Jan 24, 2019 11:40:45 AM
+//Last modified: Thu, Jan 24, 2019 11:41:55 AM
 //Codeset: 1252
 requires maya "2018";
 currentUnit -l centimeter -a degree -t film;
@@ -13,13 +13,13 @@ fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "3499272E-451D-999F-E7B4-4B91062A44E5";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" -34.670335857229894 39.849059397696394 -23.812967037837208 ;
-	setAttr ".r" -type "double3" 326.06164739272418 -1921.7999999999417 0 ;
+	setAttr ".t" -type "double3" -31.373422927773088 24.011613335923698 27.526499232771741 ;
+	setAttr ".r" -type "double3" 345.26164739245417 -1494.9999999996364 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "2E9BFF98-4660-564E-A01E-3E82A1B5E194";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 56.727379659061619;
+	setAttr ".coi" 50.818323104510334;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
