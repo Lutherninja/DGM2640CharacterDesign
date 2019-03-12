@@ -1,6 +1,6 @@
 //Maya ASCII 2018 scene
 //Name: FrogSkelly.ma
-//Last modified: Mon, Mar 11, 2019 11:24:43 PM
+//Last modified: Mon, Mar 11, 2019 11:26:50 PM
 //Codeset: 1252
 requires maya "2018";
 requires "stereoCamera" "10.0";
@@ -15,13 +15,13 @@ fileInfo "license" "student";
 createNode transform -s -n "persp";
 	rename -uid "688AE604-46D1-3AB8-074F-58B560E791AC";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 8.9462019010605331 1.6608377922426827 18.358026294531477 ;
-	setAttr ".r" -type "double3" -714.93835308363816 -7896.9999999968632 -2.159517865120742e-16 ;
+	setAttr ".t" -type "double3" -1.4932708541497557 26.317439862096411 19.078756852754363 ;
+	setAttr ".r" -type "double3" -768.33835308363496 -7926.1999999967275 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "F2BE694A-4A79-B266-4826-9F8FF9CE326E";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 21.19646335347409;
+	setAttr ".coi" 30.500601337387899;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
